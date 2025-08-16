@@ -1,0 +1,12 @@
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+pydantic
+requests
+gradio
+jinja2
