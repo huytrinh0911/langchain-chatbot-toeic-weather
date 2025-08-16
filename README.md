@@ -28,7 +28,7 @@ It can:
 ---
 ## 💡 Pipeline
 
-![Pipeline Diagram](assets/pipeline.png)
+![Pipeline Diagram](https://github.com/huytrinh0911/langchain-chatbot-toeic-weather/blob/main/image/pipeline.png?raw=true)
 
 The system follows a **Retrieval-Augmented Generation (RAG) pipeline** combined with tool-augmented agents:
 1. Data ingestion & vector DB creation.
@@ -53,11 +53,13 @@ The system follows a **Retrieval-Augmented Generation (RAG) pipeline** combined 
 ---
 
 ## 🎥 Demo
-👉 Huggingface Space: [Live Demo Link](#)  
-[]()
-![demo-screenshot](assets/demo.png)
-![demo-screenshot](assets/demo.png)
-![demo-screenshot](assets/demo.png)
+👉 Huggingface Space: [Live Demo Link](https://huggingface.co/spaces/trinhhuy/chatbot-toeic-weather)    
+
+![demo1t](https://raw.githubusercontent.com/huytrinh0911/langchain-chatbot-toeic-weather/refs/heads/main/image/demo1.png)  
+
+![demo2](https://raw.githubusercontent.com/huytrinh0911/langchain-chatbot-toeic-weather/refs/heads/main/image/demo2.png)  
+
+![demo3](https://github.com/huytrinh0911/langchain-chatbot-toeic-weather/blob/main/image/demo3.png?raw=true)
 
 ---
 
@@ -77,7 +79,8 @@ Get the API key and then put it in the **```.env```** file:
 
 - [google api](https://aistudio.google.com/app/apikey): to use the model 'gemini-2.5-flash'.
 - [weather api](https://www.weatherapi.com/): to use the weather tool.
-![Pipeline Diagram](assets/pipeline.png)
+
+![WeatherAPI](https://github.com/huytrinh0911/langchain-chatbot-toeic-weather/blob/main/image/weather.png?raw=true)
 
 Step 3: 
 ```bash
@@ -97,7 +100,5 @@ Then open [http://localhost:7860](http://localhost:7860/) in your browser.
     
 - Deployment: HuggingFace Spaces
     
-
----
 
 
